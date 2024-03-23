@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #f0eded;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header img{
+    width: 100px;
+    height: auto;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header div ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+header button{
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+main{
+    background: url(images/car6.png);
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+main .store img{
+    width: 120px;
+}
+
+main .store{
+    display: flex;
+    gap: 30px;
+}
+
+main .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+
+main .text span{
+    color: orangered;
+
+}
+
+/* section */
+
+.heading{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.heading span{
+    text-transform: uppercase;
+}
+
+.heading h1{
+    font-style: italic;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.container .box{
+    text-align: center;
+    padding: 20px;
+}
+
+.container .box i{
+    font-size: 30px;
+    color: orangered;
+    background-color: #eeeff2;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.container .box h2{
+    margin: 15px;
+}
+
+.container .box i:hover{
+    background-color: orangered;
+    color: #fff;
+    transition: .5s;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.services-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.services-container .box .box-img{
+    width: 100%;
+    height: 200px;
+}
+
+.services-container .box{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb
+    a(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn{
+    background: #474fa0;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.btn:hover{
+    background-color: orangered;
+    transition: .5s;
+}
+
+.services-container .box p{ 
+    border: 1px solid black;
+    width: 45px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
